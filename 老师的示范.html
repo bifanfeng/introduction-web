@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>成电</title>
+		<meta name="charset" content="utf-8" />
+		<style type="text/css">
+			/* 去掉默认元素的padding和margin */
+			
+			* {
+				color: #333;
+				margin: 10px;
+			}
+			nav{
+				background-color: #333;
+				height: 80px;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+				line-height: 80px;
+				margin: 0 10px;
+			}
+			a:hover{
+				color: aqua;
+			}
+			/* class */
+			.active{
+				color: bisque;
+			}
+			
+			h1{
+				color: #333333;
+			}
+				
+			audio{
+				float: right;
+				line-height: 80px;
+				margin-top: 13px;
+			}
+			.navigator{
+				float: left;
+				line-height: 80px;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body style="margin: 0;color: #fff;">
+		<!-- 导航条（nav）,#-跳转到当前页面 -->
+		<nav>
+			<div class="navigator">
+				<a href="#" class="active">首页</a>
+				<a href="#">美食</a>
+				<a href="#">美景</a>
+				<a href="#">美女</a>
+			</div>
+			<audio autoplay="autoplay" loop="loop" preload="auto" controls="controls"
+			            src="赵雷%20-%20成都.mp3">       
+			</audio>
+		</nav>
+		<div>
+			<h1>成都</h1>
+			<h5>一座来了就不想走的城市...</h5>
+			<p>成都，简称“蓉”，别称蓉城、锦城，是四川省省会、副省级市、特大城市、成都都市圈核心城市，国务院批复确定的中国西部地区重要的中心城市，国家重要的高新技术产业基地、商贸物流中心和综合交通枢纽 [1]  。截至2018年，全市下辖11个区、4个县，代管5个县级市，总面积14335平方千米。 [2-4]  2019年末，常住人口1658.10万人，城镇人口1233.79万人，城镇化率74.41% [5]  ，常住外来人口达437万人。</p>
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589994486536&di=0d10596f6f5dd9a891246d71943eb1d1&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180719%2F8ff5658daed24132beb124eb1ada928e.jpeg" style="width: 750px;" />
+		</div>
+	</body>
+	<script>
+		document.querySelectorAll('a').forEach((item) => {
+		  // 绑定事件
+		  item.onclick = function (e) {
+		     // 当前dom节点 
+		     var currentItem = e.target;
+		     // 当前dom节点同级的节点
+		     var items = currentItem.parentNode.children;
+		     for (var i = 0; i < items.length; i++) {
+		          items[i].setAttribute('class', '');
+		     }
+		     
+		     currentItem.setAttribute('class', 'active');
+		  }  
+		});
+	</script>
+</html>

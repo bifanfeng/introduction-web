@@ -1,0 +1,148 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590161039646&di=6811999ba55d52f9fa876b9d6bae0b6d&imgtype=0&src=http%3A%2F%2Fb2c.gaohangip.com%2Fuploads%2F151014%2F151014%2F1-151014160R9510.jpg);
+	background-attachment: fixed;
+	width: 100%;
+}
+nav{
+    height: 30px ;
+    background-color: rgb(241, 240, 240);
+}
+.navigator{
+    line-height: 30px;
+    margin: 0;
+    background-color: rgb(241, 240, 240);
+    width:960px;
+    height:30px;
+    position:fixed;
+    top:0;
+}
+.click{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+audio{
+    float: right;
+    margin-top: 40px;
+}
+.text{
+    width: 500px;
+    float: left;
+}
+.pic{
+    width: 400px;
+    float: right;
+}
+.box{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(241, 243, 244);
+    filter:alpha(Opacity=90);
+    -moz-opacity:0.9;
+    opacity: 0.9;
+}
+.heading{
+    height: 65px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(241, 243, 244);
+}
+.title_1{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 10px 20px 0px 20px;
+    height: 40px;
+}
+.introduction{
+    width: 480px;
+    padding-left: 30px;
+    float: left;
+  
+}
+.introduce_pic{
+    width: 400px;
+    height: 225px;
+    margin: 20px;
+    margin-top: 50px;
+    float: right;
+  
+}
+.food{
+    width: 480px;
+    margin-top: 0px;
+    padding-left: 30px;
+    float: left;
+    
+}
+.food_pic{
+    width: 400px;
+    height: 225px;
+    margin-right: 20px;
+    float: right;
+    
+}
+.famous{
+    width: 480px;
+    margin-top: 0px;
+    padding-left: 30px;
+    float: left;
+   
+}
+.famous_pic{
+    width: 400px;
+    height: 240px;
+    margin-right: 20px;
+    margin-top: 60px;
+    float: right;
+   
+}
+.bottom{
+    width: 100%;
+    height: 100px;
+   
+}
+.sightseeing{
+    width: 480px;
+    margin-top: 0px;
+    padding-left: 30px;
+    float: left;
+  
+}
+.little_title{
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+.p4_p{
+    margin-left: 50px;
+   
+}
+.sightseeing_pic_1{
+    width: 400px;
+    height: 225px;
+    margin-right: 20px;
+    margin-top: 100px;
+    float: right;
+    
+}
+.sightseeing_pic_2{
+    width: 400px;
+    height: 225px;
+    margin-right: 20px;
+    margin-top: 40px;
+    float: right;
+}
+.video_box{
+    margin: 0 auto;
+}
+.video_title{
+    width: 480px;
+    margin-top: 50px;
+    padding-left: 30px;
+    float: left;
+}
+.video{
+    width:100%;;
+}
