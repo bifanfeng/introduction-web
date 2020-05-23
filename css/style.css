@@ -146,3 +146,12 @@ audio{
 .video{
     width:100%;;
 }
+.last_title{
+    width: 480px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.last_p{
+    width: 720px;
+    margin: 0 auto;
+}
